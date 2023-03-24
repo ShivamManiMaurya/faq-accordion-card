@@ -1,0 +1,66 @@
+.main {
+    background-color: #fff;
+    min-width: 23rem;
+    margin: 12rem auto 5rem auto;
+    border-radius: 2rem;
+    min-height: 20vh;
+}
+
+.main-img {
+    width: 16rem ;
+    position: relative;
+    bottom: 7.3rem;
+    left: 3.5rem;
+}
+
+.pattern-img{
+    position: relative;
+    bottom: 12.5rem;
+}
+
+.pattern-img img {
+    min-width: 16rem;
+}
+
+.faq {
+    position: relative;
+    bottom: 12.5rem;
+    margin-bottom: -9rem;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+}
+
+
+.arrow-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow-div p {
+    font-size: 0.9375rem;
+    color: hsl(237, 12%, 33%);
+    margin-bottom: 8px;
+}
+
+.que {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.ans-para {
+    width: 280px;
+    text-align: left;
+    font-size: 13px;
+    color: hsl(240, 6%, 50%);
+    margin-top: 0px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid hsl(240, 5%, 91%);
+    height: 0px;
+}
+
