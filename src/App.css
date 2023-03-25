@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-  /* min-height: 100vh; */
+  min-height: 98vh;
   /* height: auto; */
   display: grid;
   place-items: center;

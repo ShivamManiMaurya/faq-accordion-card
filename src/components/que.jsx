@@ -14,8 +14,10 @@ function Que(props) {
     return (
         <div className={props.classData}>
             <div className="arrow-div">
-                <p style={showAns ? {fontWeight: "700"} : {fontWeight: "400"}}>{props.paraData}</p>
-                <button onClick={handleClick} type="button" style={showAns ? {transform: `rotate(${180}deg)`} : {transform: `rotate(${0}deg)`}} >
+                <button className="para-btn" onClick={handleClick}>
+                    <p style={showAns ? {fontWeight: "700"} : {fontWeight: "400"}}>{props.paraData}</p>
+                </button>
+                <button className="arrow-btn" onClick={handleClick} type="button" style={showAns ? {transform: `rotate(${180}deg)`} : {transform: `rotate(${0}deg)`}} >
                     <img src={Arrow} alt="icon-arrow-down" />
                 </button>
             </div>

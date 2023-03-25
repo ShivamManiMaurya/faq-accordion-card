@@ -6,20 +6,32 @@
     min-height: 20vh;
 }
 
-.main-img {
+.main-img-div {
     width: 16rem ;
     position: relative;
     bottom: 7.3rem;
     left: 3.5rem;
 }
 
-.pattern-img{
+.main-img-desktop {
+    display: none;
+}
+
+.pattern-img-div {
     position: relative;
     bottom: 12.5rem;
 }
 
-.pattern-img img {
+.pattern-img-div img {
     min-width: 16rem;
+}
+
+.pattern-img-desktop {
+    display: none;
+}
+
+.box-img-div {
+    display: none;
 }
 
 .faq {
@@ -28,10 +40,11 @@
     margin-bottom: -9rem;
 }
 
-button {
+.arrow-btn {
     background-color: #fff;
     border: none;
 }
+
 
 
 .arrow-div {
@@ -50,12 +63,22 @@ button {
     margin-right: 1.5rem;
 }
 
+.para-btn {
+    background-color: #fff;
+    border: none;
+}
+
+.para-btn:hover p{
+    color: hsl(14, 88%, 65%);
+}
+
 .ans-para {
     width: 280px;
     text-align: left;
     font-size: 13px;
     color: hsl(240, 6%, 50%);
     margin-top: 0px;
+    margin-left: 0.4rem;
 }
 
 hr {

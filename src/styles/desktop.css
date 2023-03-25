@@ -1,0 +1,81 @@
+@media only screen and (min-width: 768px) {
+    .main {
+        display: flex;
+        min-width: 60rem;
+        min-height: 35rem;
+        margin: 5rem auto 5rem auto;
+        justify-content: center  ;
+
+    }
+
+    .main-img-div {
+        left: auto;
+        right: 7.6rem;
+        top: 6rem;
+        width: 30rem;
+        height: 30rem;
+        z-index: 1;
+    }
+
+    .main-img-desktop {
+        display: inline;
+        width: 30rem;
+        clip-path: inset(0 0 0 17%);
+        
+    }
+
+    .pattern-img-desktop {
+        display: block;
+        clip-path: inset(28% 0 0 58%);
+    }
+    
+    .pattern-img-div {
+        bottom: 16rem;
+        top: -16.5rem;
+        right: 67.6rem;
+        width: 0;
+        height: 0;
+    }
+
+    .main-img-mobile {
+        display: none;
+    }
+
+    .pattern-img-mobile {
+        display: none;
+    }
+
+
+    .box-img-div {
+        display: block;
+        position: relative;
+        margin-right: -11.9rem;
+        right:38.3rem;
+        top: 14.7rem;
+        z-index: 2;
+    }
+
+    .faq {
+        /* position: static; */
+        text-align: left;
+        top: 5rem;
+        bottom: 0;
+        right: 3.5rem;
+        width: 25rem;
+    }
+
+    .heading {
+        margin-left: 1.5rem;
+    }
+
+    .para-btn:active {
+        
+    }
+
+    .arrow-btn {
+
+    }
+
+
+
+}
