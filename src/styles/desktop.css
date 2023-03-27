@@ -5,7 +5,6 @@
         min-height: 72vh;
         margin: 5rem auto 5rem auto;
         justify-content: center  ;
-
     }
 
     .main-img-div {
@@ -57,10 +56,16 @@
 
     .faq {
         text-align: left;
-        top: 5rem;
+        top: 2rem;
         bottom: 0;
         right: 3.5rem;
         width: 25rem;
+        height: 28rem;
+        overflow: scroll;
+    }
+
+    .faq::-webkit-scrollbar {
+        display: none;
     }
 
     .heading {

@@ -23,10 +23,7 @@ function Main() {
     const [val, setVal] = useState(true);
 
     function handleChange(data) {
-        // setVal(data);
-        // console.log(data);
         setVal(data);
-        console.log(val);
     }
 
     const boxImgPos = {
@@ -58,13 +55,11 @@ function Main() {
                     <h1>FAQ</h1>
                 </div>
                 <div className="content">
-
-                    <Que onClick={handleChange} classData={questions[1].classes[0]} paraData={questions[2].question[0]} ansData={questions[3].answer[0]} />
-                    <Que onClick={handleChange} classData={questions[1].classes[1]} paraData={questions[2].question[1]} ansData={questions[3].answer[1]} />
-                    <Que onClick={handleChange} classData={questions[1].classes[2]} paraData={questions[2].question[2]} ansData={questions[3].answer[2]} />
-                    <Que onClick={handleChange} classData={questions[1].classes[3]} paraData={questions[2].question[3]} ansData={questions[3].answer[3]} />
-                    <Que onClick={handleChange} classData={questions[1].classes[4]} paraData={questions[2].question[4]} ansData={questions[3].answer[4]} />
-
+                    {questions.map((question, index) => {
+                        return (
+                            <Que key={index} onClick={handleChange} classData={question.classes} paraData={question.question} ansData={question.answer} />
+                        )
+                    })}
                 </div>
             </div>
         </div>
