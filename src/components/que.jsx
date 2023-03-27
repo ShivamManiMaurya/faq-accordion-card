@@ -9,7 +9,14 @@ function Que(props) {
 
     function handleClick() {
         changeAns(!showAns);
+        props.onClick(showAns);
     }
+
+
+    // function handleData() {
+    //     props.changeval(showAns);
+    // }
+    
 
     return (
         <div className={props.classData}>

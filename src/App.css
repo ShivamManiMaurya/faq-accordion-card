@@ -2,7 +2,6 @@
   text-align: center;
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   min-height: 98vh;
-  /* height: auto; */
   display: grid;
   place-items: center;
   font-family: 'Kumbh Sans', sans-serif;
