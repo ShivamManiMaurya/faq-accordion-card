@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - [Github Solution](https://github.com/ShivamManiMaurya/faq-accordion-card)
-- [Live site](https://your-live-site-url.com)
+- [Live site](https://cute-tanuki-c8f9af.netlify.app/)
 
 ## My process
 
